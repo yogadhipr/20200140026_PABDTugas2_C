@@ -36,7 +36,12 @@ namespace PABD_Exe1
                     "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234568', 'Ican', 'ican@mail.com')" +
                     "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234569', 'Fifi', 'fifi@mail.com')" +
                     "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234570', 'Aldy', 'aldy@mail.com')" +
-                    "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234571', 'Belinda', 'belinda@mail.com')", con);
+                    "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234571', 'Belinda', 'belinda@mail.com')" +
+                    "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values ('JUAL123','20-03-2022','10000','202001401','1234567')" +
+                    "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL125', '20-03-2022', '24000', '202001403', '1234568')"+
+                    "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL128', '20-03-2022', '16000', '202001405', '1234569')"+
+                    "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL129', '20-03-2022', '15000', '202001404', '1234570')"+
+                    "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL132', '20-03-2022', '26000', '202001401', '1234571')", con);
 
                 cm.ExecuteNonQuery();
 
