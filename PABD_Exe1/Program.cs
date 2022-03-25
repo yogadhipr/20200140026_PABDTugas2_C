@@ -31,7 +31,12 @@ namespace PABD_Exe1
                     "Insert into roti(IDRoti, NamaRoti, Harga, TglKedaluarsa) values ('KER1402', 'Kering Cokelat','5000', '20022-05-22')" +
                     "Insert into roti(IDRoti, NamaRoti, Harga, TglKedaluarsa) values ('BSH2014', 'Basan Ambon', '6000', '2022-09-20')" +
                     "Insert into roti(IDRoti, NamaRoti, Harga, TglKedaluarsa) values ('BSH2001', 'Basah Brown', '6000','2022-09-20)" +
-                    "Insert into roti(IDRoti, NamaRoti, Harga, TglKedaluarsa) values ('CAK2015', 'Cake Strawberry', '10000', '2022-04-22')", con);
+                    "Insert into roti(IDRoti, NamaRoti, Harga, TglKedaluarsa) values ('CAK2015', 'Cake Strawberry', '10000', '2022-04-22')"+
+                    "insert into pembeli(IDPembeli, NamaPembeli, Email) values ('1234567','Anggi','anggi@mail.com')" + 
+                    "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234568', 'Ican', 'ican@mail.com')" +
+                    "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234569', 'Fifi', 'fifi@mail.com')" +
+                    "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234570', 'Aldy', 'aldy@mail.com')" +
+                    "insert into pembeli(IDPembeli, NamaPembeli, Email) values('1234571', 'Belinda', 'belinda@mail.com')", con);
 
                 cm.ExecuteNonQuery();
 
