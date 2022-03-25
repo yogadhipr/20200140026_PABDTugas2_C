@@ -41,7 +41,12 @@ namespace PABD_Exe1
                     "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL125', '20-03-2022', '24000', '202001403', '1234568')"+
                     "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL128', '20-03-2022', '16000', '202001405', '1234569')"+
                     "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL129', '20-03-2022', '15000', '202001404', '1234570')"+
-                    "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL132', '20-03-2022', '26000', '202001401', '1234571')", con);
+                    "insert into transaksi(IDTransaksi, TglTransaksi, HargaTotal, IDPegawai, IDPembeli) values('JUAL132', '20-03-2022', '26000', '202001401', '1234571')" +
+                    "insert into pembuatanRoti(IDPegawai, IDRoti, TglPembuatan) values('202001401', 'KER2020', '2022-02-19')"+
+                    "insert into pembuatanRoti(IDPegawai, IDRoti, TglPembuatan) values('202001403', 'KER1402', '2022-02-19')"+
+                    "insert into pembuatanRoti(IDPegawai, IDRoti, TglPembuatan) values('202001405', 'BSH2014', '2022-02-19')"+
+                    "insert into pembuatanRoti(IDPegawai, IDRoti, TglPembuatan) values('202001404', 'BSH2001', '2022-02-19')"+
+                    "insert into pembuatanRoti(IDPegawai, IDRoti, TglPembuatan) values('202001401', 'CAK2015', '2022-02-19')", con);
 
                 cm.ExecuteNonQuery();
 
